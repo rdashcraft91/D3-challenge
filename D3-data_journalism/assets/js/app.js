@@ -1,3 +1,5 @@
+const url = 'https://rdashcraft91.github.io/D3-challenge/assets/data/data.csv'
+
 // if the SVG area isn't empty when the browser loads,
 // remove it and replace it with a resized version of the chart
 var svgArea = d3.select("#scatter").select("svg");
@@ -172,7 +174,7 @@ function updateToolTip(chosenXAxis, chosenYaxis, circlesGroup) {
 }
 
 // Retrieve data from the CSV file and execute everything below
-d3.csv("/assets/data/data.csv").then(function(stateData, err) {
+d3.csv(url).then(function(stateData, err) {
   if (err) throw err;
 
   // parse data
