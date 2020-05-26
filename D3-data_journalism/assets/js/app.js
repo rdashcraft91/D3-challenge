@@ -1,4 +1,4 @@
-const url = 'https://rdashcraft91.github.io/D3-challenge/assets/data/data.csv'
+const url = 'https://rdashcraft91.github.io/D3-challenge/D3-data_journalism/assets/data/data.csv'
 
 // if the SVG area isn't empty when the browser loads,
 // remove it and replace it with a resized version of the chart
