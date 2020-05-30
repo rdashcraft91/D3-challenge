@@ -9,7 +9,7 @@
         svgArea.remove();
     }
 
-    var svgWidth = window.innerWidth - (window.innerWidth/4);
+    var svgWidth = window.innerWidth - (window.innerWidth/6);
     var svgHeight = window.innerHeight - (window.innerHeight/2);
 
     var margin = {
