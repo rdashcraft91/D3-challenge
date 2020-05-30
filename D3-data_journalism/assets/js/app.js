@@ -83,8 +83,8 @@
         .data(stateData)
         .enter()
         .append("text")
-        .attr("cx", d => xLinearScale(d.poverty))
-        .attr("cy", d => yLinearScale(d.obesity))
+        .attr("x", d => xLinearScale(d.poverty))
+        .attr("y", d => yLinearScale(d.obesity))
         .attr("dx", 8)
         .attr("class", "stateText")
         .text(function(d) {
